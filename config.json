@@ -1,0 +1,28 @@
+{
+  "bl_flash_command": "D:\\bouffalo_flash\\BLFlashCommand.exe",
+  "wsl_rootfs_drive": "Z:",
+  "sse_host": "0.0.0.0",
+  "sse_port": 8765,
+  "flash_defaults": {
+    "chipname": "bl616",
+    "baudrate": 2000000,
+    "interface": "uart",
+    "start_addr": "0x10000"
+  },
+  "success_keywords": [
+    "All programming completed successfully",
+    "Flash writing succeeded"
+  ],
+  "failure_keywords": [
+    "Error",
+    "error",
+    "failed",
+    "Failed",
+    "timeout",
+    "Timeout",
+    "Handshake fail",
+    "Exception",
+    "exception"
+  ],
+  "flash_timeout_seconds": 120
+}
