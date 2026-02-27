@@ -1,5 +1,5 @@
 {
-  "bl_flash_command": "D:\\bouffalo_flash\\BLFlashCommand.exe",
+  "bl_flash_command": "BLFlashCommand.exe",
   "wsl_rootfs_drive": "Z:",
   "sse_host": "0.0.0.0",
   "sse_port": 8765,
