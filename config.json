@@ -24,5 +24,11 @@
     "Exception",
     "exception"
   ],
-  "flash_timeout_seconds": 120
+  "flash_timeout_seconds": 120,
+  "uart_defaults": {
+    "baudrate": 2000000,
+    "encoding": "utf-8",
+    "timeout": 1.0
+  },
+  "uart_ringbuffer_max_bytes": 10485760
 }
